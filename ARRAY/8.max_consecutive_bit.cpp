@@ -24,4 +24,5 @@ class Solution{
 int main(){
     Solution solver;
     vector<int>arr = {0,0,1,2,3,3,4,2,2,2};
+    // cout<<"maximum consecutive is"<<solver.maxConsecBit(arr); 
 }
