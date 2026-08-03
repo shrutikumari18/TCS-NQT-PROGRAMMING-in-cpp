@@ -7,6 +7,13 @@ class Solution{
         int i=0;
         int j=0;
 
-        while(i < a.size)
+        while(i < arr.size()){
+            if(arr[i] != arr[j]){
+                j++;
+                arr[j] = arr[i];
+            }
+            i++;
+        }
+        return j + 1;
     }
-}
+};
