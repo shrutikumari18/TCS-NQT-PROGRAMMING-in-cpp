@@ -44,13 +44,9 @@ public:
 int main(){
 
     Solution rotater;
-
     vector<int> arr = {1,2,3,4,5};
-
     int d = 2;
-
     rotater.rotateArr(arr, d);
-
     for(int x : arr)
         cout << x << " ";
 
